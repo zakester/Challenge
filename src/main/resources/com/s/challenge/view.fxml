@@ -161,7 +161,7 @@
                         </graphic>
                     </JFXButton>
 
-                    <TextField fx:id="info_gourp_2" prefWidth="50" prefHeight="35" text="0.0" alignment="CENTER" stylesheets="@css/module-text-field-style.css" />
+                    <TextField fx:id="info_group_2" prefWidth="50" prefHeight="35" text="0.0" alignment="CENTER" stylesheets="@css/module-text-field-style.css" />
 
                     <Label prefHeight="35" text="الإعلام الآلي" stylesheets="@css/module-label-style.css"/>
 
@@ -175,7 +175,7 @@
                         </graphic>
                     </JFXButton>
 
-                    <TextField fx:id="english_gourp_2" prefWidth="50" prefHeight="35" text="0.0" alignment="CENTER" stylesheets="@css/module-text-field-style.css" />
+                    <TextField fx:id="english_group_2" prefWidth="50" prefHeight="35" text="0.0" alignment="CENTER" stylesheets="@css/module-text-field-style.css" />
 
                     <Label prefHeight="35" text="اللغة الانجليزية" stylesheets="@css/module-label-style.css"/>
 
@@ -356,7 +356,7 @@
                         </graphic>
                     </JFXButton>
 
-                    <TextField fx:id="info_gourp_1" prefWidth="50" prefHeight="35" text="0.0" alignment="CENTER" stylesheets="@css/module-text-field-style.css" />
+                    <TextField fx:id="info_group_1" prefWidth="50" prefHeight="35" text="0.0" alignment="CENTER" stylesheets="@css/module-text-field-style.css" />
 
                     <Label prefHeight="35" text="الإعلام الآلي" stylesheets="@css/module-label-style.css"/>
 
@@ -370,7 +370,7 @@
                         </graphic>
                     </JFXButton>
 
-                    <TextField fx:id="english_gourp_1" prefWidth="50" prefHeight="35" text="0.0" alignment="CENTER" stylesheets="@css/module-text-field-style.css" />
+                    <TextField fx:id="english_group_1" prefWidth="50" prefHeight="35" text="0.0" alignment="CENTER" stylesheets="@css/module-text-field-style.css" />
 
                     <Label prefHeight="35" text="اللغة الانجليزية" stylesheets="@css/module-label-style.css"/>
 
