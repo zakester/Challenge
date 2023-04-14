@@ -1,0 +1,11 @@
+.label {
+    -fx-font-size: 38px;
+    -fx-font-family: "Tajawal-Bold";
+    -fx-text-fill: white;
+    -fx-background-color: #0C0C0C;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-alignment: CENTER;
+    -fx-pref-width: 180.0px;
+    -fx-pref-height: 90.0px;
+}

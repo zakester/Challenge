@@ -1,0 +1,13 @@
+#group-name {
+    -fx-font-size: 22px;
+    -fx-font-family: "Tajawal";
+    -fx-text-fill: white;
+    -fx-alignment: center-right;
+}
+
+#group-total {
+    -fx-font-size: 22px;
+    -fx-font-family: "Tajawal";
+    -fx-text-fill: #FFBE34;
+    -fx-alignment: center-left;
+}

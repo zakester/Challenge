@@ -1,0 +1,11 @@
+#vbox-total {
+    -fx-background-color: #0C0C0C;
+    -fx-background-radius: 8px;
+    -fx-border-radius: 8px;
+    -fx-min-width: 475px;
+    -fx-max-width: 475px;
+    -fx-pref-width: 475px;
+    -fx-min-height: 235px;
+    -fx-max-height: 235px;
+    -fx-pref-height: 235px;
+}

@@ -1,0 +1,11 @@
+.button {
+    -fx-background-color: #0C0C0C;
+    -fx-background-radius: 8px;
+    -fx-border-radius: 8px;
+    -fx-font-size: 32px;
+    -fx-font-family: "Tajawal-Bold";
+    -fx-text-fill: #FFBE34;
+    -fx-pref-width: 475.0px;
+    -fx-min-width: 475.0px;
+    -fx-max-width: 475.0px;
+}
