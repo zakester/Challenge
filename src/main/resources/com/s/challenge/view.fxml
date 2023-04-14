@@ -4,13 +4,210 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.VBox?>
 
-<?import javafx.scene.control.Button?>
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.s.challenge.HelloController">
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.TextField?>
+<?import org.kordamp.ikonli.javafx.FontIcon?>
+<?import com.jfoenix.controls.JFXButton?>
+
+<?import javafx.scene.layout.Pane?>
+<StackPane xmlns:fx="http://javafx.com/fxml" style="-fx-background-color: white;"
+           fx:controller="com.s.challenge.MainController">
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
     </padding>
 
-    <Label fx:id="welcomeText"/>
-    <Button text="Hello!" onAction="#onHelloButtonClick"/>
-</VBox>
+    <ImageView style="-fx-background-color: white;">
+        <Image url="@images/background.png"/>
+    </ImageView>
+
+    <HBox>
+        <VBox spacing="25" alignment="TOP_CENTER">
+            <Label text="الفوج الثاني" style="-fx-font-size: 30px; -fx-font-family: 'Tajawal-Bold'; -fx-text-fill: black;"/>
+            <VBox spacing="20">
+                <HBox spacing="10">
+
+                    <JFXButton onAction="#startTimer" stylesheets="@css/button-timer.css">
+                        <graphic>
+                            <FontIcon iconLiteral="mdrmz-timer" iconColor="#FFBE34" iconSize="26"/>
+                        </graphic>
+                    </JFXButton>
+
+                    <TextField fx:id="arabic_group_2" prefWidth="50" prefHeight="35" text="0.0" alignment="CENTER" stylesheets="@css/module-text-field-style.css" />
+
+                    <Label prefHeight="35" text="اللغة العربية" stylesheets="@css/module-label-style.css"/>
+
+                </HBox>
+
+                <HBox spacing="10">
+
+                    <JFXButton onAction="#startTimer" stylesheets="@css/button-timer.css">
+                        <graphic>
+                            <FontIcon iconLiteral="mdrmz-timer" iconColor="#FFBE34" iconSize="26"/>
+                        </graphic>
+                    </JFXButton>
+
+                    <TextField fx:id="islam_group_2" prefWidth="50" prefHeight="35" text="0.0" alignment="CENTER" stylesheets="@css/module-text-field-style.css" />
+
+                    <Label prefHeight="35" text="التربية الإسلامية" stylesheets="@css/module-label-style.css"/>
+
+                </HBox>
+
+                <HBox spacing="10">
+
+                    <JFXButton onAction="#startTimer" stylesheets="@css/button-timer.css">
+                        <graphic>
+                            <FontIcon iconLiteral="mdrmz-timer" iconColor="#FFBE34" iconSize="26"/>
+                        </graphic>
+                    </JFXButton>
+
+                    <TextField fx:id="math_group_2" prefWidth="50" prefHeight="35" text="0.0" alignment="CENTER" stylesheets="@css/module-text-field-style.css" />
+
+                    <Label prefHeight="35" text="الرياضيات" stylesheets="@css/module-label-style.css"/>
+
+                </HBox>
+
+                <HBox spacing="10">
+
+                    <JFXButton onAction="#startTimer" stylesheets="@css/button-timer.css">
+                        <graphic>
+                            <FontIcon iconLiteral="mdrmz-timer" iconColor="#FFBE34" iconSize="26"/>
+                        </graphic>
+                    </JFXButton>
+
+                    <TextField fx:id="physics_group_2" prefWidth="50" prefHeight="35" text="0.0" alignment="CENTER" stylesheets="@css/module-text-field-style.css" />
+
+                    <Label prefHeight="35" text="الفزاياء" stylesheets="@css/module-label-style.css"/>
+
+                </HBox>
+
+                <HBox spacing="10">
+
+                    <JFXButton onAction="#startTimer" stylesheets="@css/button-timer.css">
+                        <graphic>
+                            <FontIcon iconLiteral="mdrmz-timer" iconColor="#FFBE34" iconSize="26"/>
+                        </graphic>
+                    </JFXButton>
+
+                    <TextField fx:id="scince_group_2" prefWidth="50" prefHeight="35" text="0.0" alignment="CENTER" stylesheets="@css/module-text-field-style.css" />
+
+                    <Label prefHeight="35" text="العلوم الطبيعية" stylesheets="@css/module-label-style.css"/>
+
+                </HBox>
+
+                <HBox spacing="10">
+
+                    <JFXButton onAction="#startTimer" stylesheets="@css/button-timer.css">
+                        <graphic>
+                            <FontIcon iconLiteral="mdrmz-timer" iconColor="#FFBE34" iconSize="26"/>
+                        </graphic>
+                    </JFXButton>
+
+                    <TextField fx:id="fr_group_2" prefWidth="50" prefHeight="35" text="0.0" alignment="CENTER" stylesheets="@css/module-text-field-style.css" />
+
+                    <Label prefHeight="35" text="اللغة الفرنسية" stylesheets="@css/module-label-style.css"/>
+
+                </HBox>
+
+                <HBox spacing="10">
+
+                    <JFXButton onAction="#startTimer" stylesheets="@css/button-timer.css">
+                        <graphic>
+                            <FontIcon iconLiteral="mdrmz-timer" iconColor="#FFBE34" iconSize="26"/>
+                        </graphic>
+                    </JFXButton>
+
+                    <TextField fx:id="generalColture_group_2" prefWidth="50" prefHeight="35" text="0.0" alignment="CENTER" stylesheets="@css/module-text-field-style.css" />
+
+                    <Label prefHeight="35" text="ثقافة عامة" stylesheets="@css/module-label-style.css"/>
+
+                </HBox>
+
+                <HBox spacing="10">
+
+                    <JFXButton onAction="#startTimer" stylesheets="@css/button-timer.css">
+                        <graphic>
+                            <FontIcon iconLiteral="mdrmz-timer" iconColor="#FFBE34" iconSize="26"/>
+                        </graphic>
+                    </JFXButton>
+
+                    <TextField fx:id="history_group_2" prefWidth="50" prefHeight="35" text="0.0" alignment="CENTER" stylesheets="@css/module-text-field-style.css" />
+
+                    <Label text="التاريخ والجغرافيا" stylesheets="@css/module-label-style.css"/>
+
+                </HBox>
+
+                <HBox spacing="10">
+
+                    <JFXButton onAction="#startTimer" stylesheets="@css/button-timer.css">
+                        <graphic>
+                            <FontIcon iconLiteral="mdrmz-timer" iconColor="#FFBE34" iconSize="26"/>
+                        </graphic>
+                    </JFXButton>
+
+                    <TextField fx:id="civil_group_2" prefWidth="50" prefHeight="35" text="0.0" alignment="CENTER" stylesheets="@css/module-text-field-style.css" />
+
+                    <Label prefHeight="35" text="التربية المدنية" stylesheets="@css/module-label-style.css"/>
+
+                </HBox>
+
+                <HBox spacing="10">
+
+                    <JFXButton onAction="#startTimer" stylesheets="@css/button-timer.css">
+                        <graphic>
+                            <FontIcon iconLiteral="mdrmz-timer" iconColor="#FFBE34" iconSize="26"/>
+                        </graphic>
+                    </JFXButton>
+
+                    <TextField fx:id="info_gourp_2" prefWidth="50" prefHeight="35" text="0.0" alignment="CENTER" stylesheets="@css/module-text-field-style.css" />
+
+                    <Label prefHeight="35" text="الإعلام الآلي" stylesheets="@css/module-label-style.css"/>
+
+                </HBox>
+
+                <HBox spacing="10">
+
+                    <JFXButton onAction="#startTimer" stylesheets="@css/button-timer.css">
+                        <graphic>
+                            <FontIcon iconLiteral="mdrmz-timer" iconColor="#FFBE34" iconSize="26"/>
+                        </graphic>
+                    </JFXButton>
+
+                    <TextField fx:id="english_gourp_2" prefWidth="50" prefHeight="35" text="0.0" alignment="CENTER" stylesheets="@css/module-text-field-style.css" />
+
+                    <Label prefHeight="35" text="اللغة الانجليزية" stylesheets="@css/module-label-style.css"/>
+
+                </HBox>
+            </VBox>
+
+        </VBox>
+
+        <VBox>
+            <Label fx:id="timer" text="10:00"/>
+
+            <VBox>
+                <Label text="المجموع" />
+                <VBox>
+                    <HBox>
+                        <Label fx:id="total_group_1" text="0.0"/>
+                        <Label text="الفوج الأول"/>
+                    </HBox>
+                    <Pane prefHeight="1" style="-fx-background-color: white;"/>
+                    <HBox>
+                        <Label fx:id="total_group_2" text="0.0"/>
+                        <Label text="الفوج الثاني"/>
+                    </HBox>
+                </VBox>
+
+                <JFXButton onAction="#showWinner" text="الفائز"/>
+            </VBox>
+        </VBox>
+
+        <VBox>
+
+        </VBox>
+    </HBox>
+
+</StackPane>
