@@ -1,6 +1,7 @@
 module com.s.challenge {
     requires javafx.controls;
     requires javafx.fxml;
+    requires javafx.media;
 
     requires org.kordamp.ikonli.javafx;
     requires com.jfoenix;

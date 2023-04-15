@@ -1,44 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.VBox?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import org.kordamp.ikonli.javafx.*?>
 
-<?import javafx.scene.layout.StackPane?>
-<?import javafx.scene.image.ImageView?>
-<?import javafx.scene.image.Image?>
-<?import javafx.scene.layout.HBox?>
-<?import javafx.scene.control.TextField?>
-<?import org.kordamp.ikonli.javafx.FontIcon?>
-<?import com.jfoenix.controls.JFXButton?>
-
-<?import javafx.scene.layout.Pane?>
-<StackPane xmlns:fx="http://javafx.com/fxml" style="-fx-background-color: white;"
-           fx:controller="com.s.challenge.MainController">
+<StackPane style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.s.challenge.MainController">
 
     <padding>
-        <Insets bottom="20.0" left="40.0" right="40.0" top="20.0"/>
+        <Insets bottom="20.0" left="40.0" right="40.0" top="20.0" />
     </padding>
 
     <ImageView style="-fx-background-color: white;">
-        <Image url="@images/background.png"/>
+        <Image url="@images/background.png" />
     </ImageView>
 
     <HBox HBox.hgrow="ALWAYS">
-        <VBox spacing="60" alignment="CENTER">
-            <Label text="الفوج الثاني" style="-fx-font-size: 30px; -fx-font-family: 'Tajawal-Bold'; -fx-text-fill: black;"/>
+        <VBox alignment="CENTER" spacing="60">
+            <Label style="-fx-font-size: 30px; -fx-font-family: 'Tajawal-Bold'; -fx-text-fill: black;" text="الفوج الثاني" />
             <VBox spacing="20">
                 <HBox spacing="10">
 
                     <JFXButton onAction="#startTimer" stylesheets="@css/button-timer.css">
                         <graphic>
-                            <FontIcon iconLiteral="mdrmz-timer" iconColor="#FFBE34" iconSize="26"/>
+                            <FontIcon iconColor="#FFBE34" iconLiteral="mdrmz-timer" iconSize="26" />
                         </graphic>
                     </JFXButton>
 
-                    <TextField fx:id="arabic_group_2" prefWidth="50" prefHeight="35" text="0.0" alignment="CENTER" stylesheets="@css/module-text-field-style.css" />
+                    <TextField fx:id="arabic_group_2" alignment="CENTER" prefHeight="35" prefWidth="50" stylesheets="@css/module-text-field-style.css" text="0.0" />
 
-                    <Label prefHeight="35" text="اللغة العربية" stylesheets="@css/module-label-style.css"/>
+                    <Label prefHeight="35" stylesheets="@css/module-label-style.css" text="اللغة العربية" />
 
                 </HBox>
 
@@ -46,13 +39,13 @@
 
                     <JFXButton onAction="#startTimer" stylesheets="@css/button-timer.css">
                         <graphic>
-                            <FontIcon iconLiteral="mdrmz-timer" iconColor="#FFBE34" iconSize="26"/>
+                            <FontIcon iconColor="#FFBE34" iconLiteral="mdrmz-timer" iconSize="26" />
                         </graphic>
                     </JFXButton>
 
-                    <TextField fx:id="islam_group_2" prefWidth="50" prefHeight="35" text="0.0" alignment="CENTER" stylesheets="@css/module-text-field-style.css" />
+                    <TextField fx:id="islam_group_2" alignment="CENTER" prefHeight="35" prefWidth="50" stylesheets="@css/module-text-field-style.css" text="0.0" />
 
-                    <Label prefHeight="35" text="التربية الإسلامية" stylesheets="@css/module-label-style.css"/>
+                    <Label prefHeight="35" stylesheets="@css/module-label-style.css" text="التربية الإسلامية" />
 
                 </HBox>
 
@@ -60,13 +53,13 @@
 
                     <JFXButton onAction="#startTimer" stylesheets="@css/button-timer.css">
                         <graphic>
-                            <FontIcon iconLiteral="mdrmz-timer" iconColor="#FFBE34" iconSize="26"/>
+                            <FontIcon iconColor="#FFBE34" iconLiteral="mdrmz-timer" iconSize="26" />
                         </graphic>
                     </JFXButton>
 
-                    <TextField fx:id="math_group_2" prefWidth="50" prefHeight="35" text="0.0" alignment="CENTER" stylesheets="@css/module-text-field-style.css" />
+                    <TextField fx:id="math_group_2" alignment="CENTER" prefHeight="35" prefWidth="50" stylesheets="@css/module-text-field-style.css" text="0.0" />
 
-                    <Label prefHeight="35" text="الرياضيات" stylesheets="@css/module-label-style.css"/>
+                    <Label prefHeight="35" stylesheets="@css/module-label-style.css" text="الرياضيات" />
 
                 </HBox>
 
@@ -74,13 +67,13 @@
 
                     <JFXButton onAction="#startTimer" stylesheets="@css/button-timer.css">
                         <graphic>
-                            <FontIcon iconLiteral="mdrmz-timer" iconColor="#FFBE34" iconSize="26"/>
+                            <FontIcon iconColor="#FFBE34" iconLiteral="mdrmz-timer" iconSize="26" />
                         </graphic>
                     </JFXButton>
 
-                    <TextField fx:id="physics_group_2" prefWidth="50" prefHeight="35" text="0.0" alignment="CENTER" stylesheets="@css/module-text-field-style.css" />
+                    <TextField fx:id="physics_group_2" alignment="CENTER" prefHeight="35" prefWidth="50" stylesheets="@css/module-text-field-style.css" text="0.0" />
 
-                    <Label prefHeight="35" text="الفزاياء" stylesheets="@css/module-label-style.css"/>
+                    <Label prefHeight="35" stylesheets="@css/module-label-style.css" text="الفزاياء" />
 
                 </HBox>
 
@@ -88,13 +81,13 @@
 
                     <JFXButton onAction="#startTimer" stylesheets="@css/button-timer.css">
                         <graphic>
-                            <FontIcon iconLiteral="mdrmz-timer" iconColor="#FFBE34" iconSize="26"/>
+                            <FontIcon iconColor="#FFBE34" iconLiteral="mdrmz-timer" iconSize="26" />
                         </graphic>
                     </JFXButton>
 
-                    <TextField fx:id="scince_group_2" prefWidth="50" prefHeight="35" text="0.0" alignment="CENTER" stylesheets="@css/module-text-field-style.css" />
+                    <TextField fx:id="scince_group_2" alignment="CENTER" prefHeight="35" prefWidth="50" stylesheets="@css/module-text-field-style.css" text="0.0" />
 
-                    <Label prefHeight="35" text="العلوم الطبيعية" stylesheets="@css/module-label-style.css"/>
+                    <Label prefHeight="35" stylesheets="@css/module-label-style.css" text="العلوم الطبيعية" />
 
                 </HBox>
 
@@ -102,13 +95,13 @@
 
                     <JFXButton onAction="#startTimer" stylesheets="@css/button-timer.css">
                         <graphic>
-                            <FontIcon iconLiteral="mdrmz-timer" iconColor="#FFBE34" iconSize="26"/>
+                            <FontIcon iconColor="#FFBE34" iconLiteral="mdrmz-timer" iconSize="26" />
                         </graphic>
                     </JFXButton>
 
-                    <TextField fx:id="fr_group_2" prefWidth="50" prefHeight="35" text="0.0" alignment="CENTER" stylesheets="@css/module-text-field-style.css" />
+                    <TextField fx:id="fr_group_2" alignment="CENTER" prefHeight="35" prefWidth="50" stylesheets="@css/module-text-field-style.css" text="0.0" />
 
-                    <Label prefHeight="35" text="اللغة الفرنسية" stylesheets="@css/module-label-style.css"/>
+                    <Label prefHeight="35" stylesheets="@css/module-label-style.css" text="اللغة الفرنسية" />
 
                 </HBox>
 
@@ -116,13 +109,13 @@
 
                     <JFXButton onAction="#startTimer" stylesheets="@css/button-timer.css">
                         <graphic>
-                            <FontIcon iconLiteral="mdrmz-timer" iconColor="#FFBE34" iconSize="26"/>
+                            <FontIcon iconColor="#FFBE34" iconLiteral="mdrmz-timer" iconSize="26" />
                         </graphic>
                     </JFXButton>
 
-                    <TextField fx:id="generalColture_group_2" prefWidth="50" prefHeight="35" text="0.0" alignment="CENTER" stylesheets="@css/module-text-field-style.css" />
+                    <TextField fx:id="generalColture_group_2" alignment="CENTER" prefHeight="35" prefWidth="50" stylesheets="@css/module-text-field-style.css" text="0.0" />
 
-                    <Label prefHeight="35" text="ثقافة عامة" stylesheets="@css/module-label-style.css"/>
+                    <Label prefHeight="35" stylesheets="@css/module-label-style.css" text="ثقافة عامة" />
 
                 </HBox>
 
@@ -130,13 +123,13 @@
 
                     <JFXButton onAction="#startTimer" stylesheets="@css/button-timer.css">
                         <graphic>
-                            <FontIcon iconLiteral="mdrmz-timer" iconColor="#FFBE34" iconSize="26"/>
+                            <FontIcon iconColor="#FFBE34" iconLiteral="mdrmz-timer" iconSize="26" />
                         </graphic>
                     </JFXButton>
 
-                    <TextField fx:id="history_group_2" prefWidth="50" prefHeight="35" text="0.0" alignment="CENTER" stylesheets="@css/module-text-field-style.css" />
+                    <TextField fx:id="history_group_2" alignment="CENTER" prefHeight="35" prefWidth="50" stylesheets="@css/module-text-field-style.css" text="0.0" />
 
-                    <Label text="التاريخ والجغرافيا" stylesheets="@css/module-label-style.css"/>
+                    <Label stylesheets="@css/module-label-style.css" text="التاريخ والجغرافيا" />
 
                 </HBox>
 
@@ -144,13 +137,13 @@
 
                     <JFXButton onAction="#startTimer" stylesheets="@css/button-timer.css">
                         <graphic>
-                            <FontIcon iconLiteral="mdrmz-timer" iconColor="#FFBE34" iconSize="26"/>
+                            <FontIcon iconColor="#FFBE34" iconLiteral="mdrmz-timer" iconSize="26" />
                         </graphic>
                     </JFXButton>
 
-                    <TextField fx:id="civil_group_2" prefWidth="50" prefHeight="35" text="0.0" alignment="CENTER" stylesheets="@css/module-text-field-style.css" />
+                    <TextField fx:id="civil_group_2" alignment="CENTER" prefHeight="35" prefWidth="50" stylesheets="@css/module-text-field-style.css" text="0.0" />
 
-                    <Label prefHeight="35" text="التربية المدنية" stylesheets="@css/module-label-style.css"/>
+                    <Label prefHeight="35" stylesheets="@css/module-label-style.css" text="التربية المدنية" />
 
                 </HBox>
 
@@ -158,13 +151,13 @@
 
                     <JFXButton onAction="#startTimer" stylesheets="@css/button-timer.css">
                         <graphic>
-                            <FontIcon iconLiteral="mdrmz-timer" iconColor="#FFBE34" iconSize="26"/>
+                            <FontIcon iconColor="#FFBE34" iconLiteral="mdrmz-timer" iconSize="26" />
                         </graphic>
                     </JFXButton>
 
-                    <TextField fx:id="info_group_2" prefWidth="50" prefHeight="35" text="0.0" alignment="CENTER" stylesheets="@css/module-text-field-style.css" />
+                    <TextField fx:id="info_group_2" alignment="CENTER" prefHeight="35" prefWidth="50" stylesheets="@css/module-text-field-style.css" text="0.0" />
 
-                    <Label prefHeight="35" text="الإعلام الآلي" stylesheets="@css/module-label-style.css"/>
+                    <Label prefHeight="35" stylesheets="@css/module-label-style.css" text="الإعلام الآلي" />
 
                 </HBox>
 
@@ -172,47 +165,47 @@
 
                     <JFXButton onAction="#startTimer" stylesheets="@css/button-timer.css">
                         <graphic>
-                            <FontIcon iconLiteral="mdrmz-timer" iconColor="#FFBE34" iconSize="26"/>
+                            <FontIcon iconColor="#FFBE34" iconLiteral="mdrmz-timer" iconSize="26" />
                         </graphic>
                     </JFXButton>
 
-                    <TextField fx:id="english_group_2" prefWidth="50" prefHeight="35" text="0.0" alignment="CENTER" stylesheets="@css/module-text-field-style.css" />
+                    <TextField fx:id="english_group_2" alignment="CENTER" prefHeight="35" prefWidth="50" stylesheets="@css/module-text-field-style.css" text="0.0" />
 
-                    <Label prefHeight="35" text="اللغة الانجليزية" stylesheets="@css/module-label-style.css"/>
+                    <Label prefHeight="35" stylesheets="@css/module-label-style.css" text="اللغة الانجليزية" />
 
                 </HBox>
             </VBox>
 
         </VBox>
 
-        <VBox HBox.hgrow="ALWAYS" alignment="CENTER">
-            <Label fx:id="timer" text="10:00" stylesheets="@css/timer-label-style.css"/>
+        <VBox alignment="CENTER" HBox.hgrow="ALWAYS">
+            <Label fx:id="timer" stylesheets="@css/timer-label-style.css" text="10:00" />
             <Pane VBox.vgrow="ALWAYS" />
 
-            <VBox spacing="10" VBox.vgrow="ALWAYS" HBox.hgrow="ALWAYS" alignment="CENTER">
-                <Label text="المجموع" HBox.hgrow="ALWAYS" stylesheets="@css/total-label-style.css" />
-                <VBox id="vbox-total" spacing="20" alignment="CENTER" stylesheets="@css/total-vbox-style.css">
+            <VBox alignment="CENTER" spacing="10" HBox.hgrow="ALWAYS" VBox.vgrow="ALWAYS">
+                <Label fx:id="somme" onMouseClicked="#calculer" stylesheets="@css/total-label-style.css" text="المجموع" HBox.hgrow="ALWAYS" />
+                <VBox id="vbox-total" alignment="CENTER" spacing="20" stylesheets="@css/total-vbox-style.css">
                     <HBox HBox.hgrow="ALWAYS">
                         <padding>
                             <Insets left="50" right="50" />
                         </padding>
                         <Label id="group-total" fx:id="total_group_1" stylesheets="@css/group-total-label-style.css" text="0.0" />
-                        <Pane HBox.hgrow="ALWAYS"/>
-                        <Label id="group-name" text="الفوج الأول" stylesheets="@css/group-total-label-style.css" />
+                        <Pane HBox.hgrow="ALWAYS" />
+                        <Label id="group-name" stylesheets="@css/group-total-label-style.css" text="الفوج الأول" />
                     </HBox>
-                    <Pane prefWidth="400" maxWidth="400" prefHeight="1" style="-fx-background-color: white;" />
+                    <Pane maxWidth="400" prefHeight="1" prefWidth="400" style="-fx-background-color: white;" />
                     <HBox>
                         <padding>
-                            <Insets left="50" right="50"/>
+                            <Insets left="50" right="50" />
                         </padding>
-                        <Label id="group-total" fx:id="total_group_2" text="0.0" stylesheets="@css/group-total-label-style.css" />
-                        <Pane HBox.hgrow="ALWAYS"/>
-                        <Label id="group-name" text="الفوج الثاني" stylesheets="@css/group-total-label-style.css" />
+                        <Label id="group-total" fx:id="total_group_2" stylesheets="@css/group-total-label-style.css" text="0.0" />
+                        <Pane HBox.hgrow="ALWAYS" />
+                        <Label id="group-name" stylesheets="@css/group-total-label-style.css" text="الفوج الثاني" />
                     </HBox>
                 </VBox>
 
-                <Pane VBox.vgrow="ALWAYS"/>
-                <JFXButton onAction="#showWinner" text="الفائز" stylesheets="@css/winner-button-style.css" />
+                <Pane onMouseClicked="#calculer" VBox.vgrow="ALWAYS" />
+                <JFXButton onAction="#showWinner" stylesheets="@css/winner-button-style.css" text="الفائز" />
                 <padding>
                     <Insets bottom="28" />
                 </padding>
@@ -220,20 +213,20 @@
             </VBox>
         </VBox>
 
-        <VBox spacing="60" alignment="CENTER">
-            <Label text="الفوج الأول" style="-fx-font-size: 30px; -fx-font-family: 'Tajawal-Bold'; -fx-text-fill: black;"/>
+        <VBox alignment="CENTER" spacing="60">
+            <Label style="-fx-font-size: 30px; -fx-font-family: 'Tajawal-Bold'; -fx-text-fill: black;" text="الفوج الأول" />
             <VBox spacing="20">
                 <HBox spacing="10">
 
                     <JFXButton onAction="#startTimer" stylesheets="@css/button-timer.css">
                         <graphic>
-                            <FontIcon iconLiteral="mdrmz-timer" iconColor="#FFBE34" iconSize="26"/>
+                            <FontIcon iconColor="#FFBE34" iconLiteral="mdrmz-timer" iconSize="26" />
                         </graphic>
                     </JFXButton>
 
-                    <TextField fx:id="arabic_group_1" prefWidth="50" prefHeight="35" text="0.0" alignment="CENTER" stylesheets="@css/module-text-field-style.css" />
+                    <TextField fx:id="arabic_group_1" alignment="CENTER" prefHeight="35" prefWidth="50" stylesheets="@css/module-text-field-style.css" text="0.0" />
 
-                    <Label prefHeight="35" text="اللغة العربية" stylesheets="@css/module-label-style.css"/>
+                    <Label prefHeight="35" stylesheets="@css/module-label-style.css" text="اللغة العربية" />
 
                 </HBox>
 
@@ -241,13 +234,13 @@
 
                     <JFXButton onAction="#startTimer" stylesheets="@css/button-timer.css">
                         <graphic>
-                            <FontIcon iconLiteral="mdrmz-timer" iconColor="#FFBE34" iconSize="26"/>
+                            <FontIcon iconColor="#FFBE34" iconLiteral="mdrmz-timer" iconSize="26" />
                         </graphic>
                     </JFXButton>
 
-                    <TextField fx:id="islam_group_1" prefWidth="50" prefHeight="35" text="0.0" alignment="CENTER" stylesheets="@css/module-text-field-style.css" />
+                    <TextField fx:id="islam_group_1" alignment="CENTER" prefHeight="35" prefWidth="50" stylesheets="@css/module-text-field-style.css" text="0.0" />
 
-                    <Label prefHeight="35" text="التربية الإسلامية" stylesheets="@css/module-label-style.css"/>
+                    <Label prefHeight="35" stylesheets="@css/module-label-style.css" text="التربية الإسلامية" />
 
                 </HBox>
 
@@ -255,13 +248,13 @@
 
                     <JFXButton onAction="#startTimer" stylesheets="@css/button-timer.css">
                         <graphic>
-                            <FontIcon iconLiteral="mdrmz-timer" iconColor="#FFBE34" iconSize="26"/>
+                            <FontIcon iconColor="#FFBE34" iconLiteral="mdrmz-timer" iconSize="26" />
                         </graphic>
                     </JFXButton>
 
-                    <TextField fx:id="math_group_1" prefWidth="50" prefHeight="35" text="0.0" alignment="CENTER" stylesheets="@css/module-text-field-style.css" />
+                    <TextField fx:id="math_group_1" alignment="CENTER" prefHeight="35" prefWidth="50" stylesheets="@css/module-text-field-style.css" text="0.0" />
 
-                    <Label prefHeight="35" text="الرياضيات" stylesheets="@css/module-label-style.css"/>
+                    <Label prefHeight="35" stylesheets="@css/module-label-style.css" text="الرياضيات" />
 
                 </HBox>
 
@@ -269,13 +262,13 @@
 
                     <JFXButton onAction="#startTimer" stylesheets="@css/button-timer.css">
                         <graphic>
-                            <FontIcon iconLiteral="mdrmz-timer" iconColor="#FFBE34" iconSize="26"/>
+                            <FontIcon iconColor="#FFBE34" iconLiteral="mdrmz-timer" iconSize="26" />
                         </graphic>
                     </JFXButton>
 
-                    <TextField fx:id="physics_group_1" prefWidth="50" prefHeight="35" text="0.0" alignment="CENTER" stylesheets="@css/module-text-field-style.css" />
+                    <TextField fx:id="physics_group_1" alignment="CENTER" prefHeight="35" prefWidth="50" stylesheets="@css/module-text-field-style.css" text="0.0" />
 
-                    <Label prefHeight="35" text="الفزاياء" stylesheets="@css/module-label-style.css"/>
+                    <Label prefHeight="35" stylesheets="@css/module-label-style.css" text="الفزاياء" />
 
                 </HBox>
 
@@ -283,13 +276,13 @@
 
                     <JFXButton onAction="#startTimer" stylesheets="@css/button-timer.css">
                         <graphic>
-                            <FontIcon iconLiteral="mdrmz-timer" iconColor="#FFBE34" iconSize="26"/>
+                            <FontIcon iconColor="#FFBE34" iconLiteral="mdrmz-timer" iconSize="26" />
                         </graphic>
                     </JFXButton>
 
-                    <TextField fx:id="scince_group_1" prefWidth="50" prefHeight="35" text="0.0" alignment="CENTER" stylesheets="@css/module-text-field-style.css" />
+                    <TextField fx:id="scince_group_1" alignment="CENTER" prefHeight="35" prefWidth="50" stylesheets="@css/module-text-field-style.css" text="0.0" />
 
-                    <Label prefHeight="35" text="العلوم الطبيعية" stylesheets="@css/module-label-style.css"/>
+                    <Label prefHeight="35" stylesheets="@css/module-label-style.css" text="العلوم الطبيعية" />
 
                 </HBox>
 
@@ -297,13 +290,13 @@
 
                     <JFXButton onAction="#startTimer" stylesheets="@css/button-timer.css">
                         <graphic>
-                            <FontIcon iconLiteral="mdrmz-timer" iconColor="#FFBE34" iconSize="26"/>
+                            <FontIcon iconColor="#FFBE34" iconLiteral="mdrmz-timer" iconSize="26" />
                         </graphic>
                     </JFXButton>
 
-                    <TextField fx:id="fr_group_1" prefWidth="50" prefHeight="35" text="0.0" alignment="CENTER" stylesheets="@css/module-text-field-style.css" />
+                    <TextField fx:id="fr_group_1" alignment="CENTER" prefHeight="35" prefWidth="50" stylesheets="@css/module-text-field-style.css" text="0.0" />
 
-                    <Label prefHeight="35" text="اللغة الفرنسية" stylesheets="@css/module-label-style.css"/>
+                    <Label prefHeight="35" stylesheets="@css/module-label-style.css" text="اللغة الفرنسية" />
 
                 </HBox>
 
@@ -311,13 +304,13 @@
 
                     <JFXButton onAction="#startTimer" stylesheets="@css/button-timer.css">
                         <graphic>
-                            <FontIcon iconLiteral="mdrmz-timer" iconColor="#FFBE34" iconSize="26"/>
+                            <FontIcon iconColor="#FFBE34" iconLiteral="mdrmz-timer" iconSize="26" />
                         </graphic>
                     </JFXButton>
 
-                    <TextField fx:id="generalColture_group_1" prefWidth="50" prefHeight="35" text="0.0" alignment="CENTER" stylesheets="@css/module-text-field-style.css" />
+                    <TextField fx:id="generalColture_group_1" alignment="CENTER" prefHeight="35" prefWidth="50" stylesheets="@css/module-text-field-style.css" text="0.0" />
 
-                    <Label prefHeight="35" text="ثقافة عامة" stylesheets="@css/module-label-style.css"/>
+                    <Label prefHeight="35" stylesheets="@css/module-label-style.css" text="ثقافة عامة" />
 
                 </HBox>
 
@@ -325,13 +318,13 @@
 
                     <JFXButton onAction="#startTimer" stylesheets="@css/button-timer.css">
                         <graphic>
-                            <FontIcon iconLiteral="mdrmz-timer" iconColor="#FFBE34" iconSize="26"/>
+                            <FontIcon iconColor="#FFBE34" iconLiteral="mdrmz-timer" iconSize="26" />
                         </graphic>
                     </JFXButton>
 
-                    <TextField fx:id="history_group_1" prefWidth="50" prefHeight="35" text="0.0" alignment="CENTER" stylesheets="@css/module-text-field-style.css" />
+                    <TextField fx:id="history_group_1" alignment="CENTER" prefHeight="35" prefWidth="50" stylesheets="@css/module-text-field-style.css" text="0.0" />
 
-                    <Label text="التاريخ والجغرافيا" stylesheets="@css/module-label-style.css"/>
+                    <Label stylesheets="@css/module-label-style.css" text="التاريخ والجغرافيا" />
 
                 </HBox>
 
@@ -339,13 +332,13 @@
 
                     <JFXButton onAction="#startTimer" stylesheets="@css/button-timer.css">
                         <graphic>
-                            <FontIcon iconLiteral="mdrmz-timer" iconColor="#FFBE34" iconSize="26"/>
+                            <FontIcon iconColor="#FFBE34" iconLiteral="mdrmz-timer" iconSize="26" />
                         </graphic>
                     </JFXButton>
 
-                    <TextField fx:id="civil_group_1" prefWidth="50" prefHeight="35" text="0.0" alignment="CENTER" stylesheets="@css/module-text-field-style.css" />
+                    <TextField fx:id="civil_group_1" alignment="CENTER" prefHeight="35" prefWidth="50" stylesheets="@css/module-text-field-style.css" text="0.0" />
 
-                    <Label prefHeight="35" text="التربية المدنية" stylesheets="@css/module-label-style.css"/>
+                    <Label prefHeight="35" stylesheets="@css/module-label-style.css" text="التربية المدنية" />
 
                 </HBox>
 
@@ -353,13 +346,13 @@
 
                     <JFXButton onAction="#startTimer" stylesheets="@css/button-timer.css">
                         <graphic>
-                            <FontIcon iconLiteral="mdrmz-timer" iconColor="#FFBE34" iconSize="26"/>
+                            <FontIcon iconColor="#FFBE34" iconLiteral="mdrmz-timer" iconSize="26" />
                         </graphic>
                     </JFXButton>
 
-                    <TextField fx:id="info_group_1" prefWidth="50" prefHeight="35" text="0.0" alignment="CENTER" stylesheets="@css/module-text-field-style.css" />
+                    <TextField fx:id="info_group_1" alignment="CENTER" prefHeight="35" prefWidth="50" stylesheets="@css/module-text-field-style.css" text="0.0" />
 
-                    <Label prefHeight="35" text="الإعلام الآلي" stylesheets="@css/module-label-style.css"/>
+                    <Label prefHeight="35" stylesheets="@css/module-label-style.css" text="الإعلام الآلي" />
 
                 </HBox>
 
@@ -367,13 +360,13 @@
 
                     <JFXButton onAction="#startTimer" stylesheets="@css/button-timer.css">
                         <graphic>
-                            <FontIcon iconLiteral="mdrmz-timer" iconColor="#FFBE34" iconSize="26"/>
+                            <FontIcon iconColor="#FFBE34" iconLiteral="mdrmz-timer" iconSize="26" />
                         </graphic>
                     </JFXButton>
 
-                    <TextField fx:id="english_group_1" prefWidth="50" prefHeight="35" text="0.0" alignment="CENTER" stylesheets="@css/module-text-field-style.css" />
+                    <TextField fx:id="english_group_1" alignment="CENTER" prefHeight="35" prefWidth="50" stylesheets="@css/module-text-field-style.css" text="0.0" />
 
-                    <Label prefHeight="35" text="اللغة الانجليزية" stylesheets="@css/module-label-style.css"/>
+                    <Label prefHeight="35" stylesheets="@css/module-label-style.css" text="اللغة الانجليزية" />
 
                 </HBox>
             </VBox>
