@@ -11,15 +11,11 @@ import java.io.IOException;
 public class Application extends javafx.application.Application {
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(Application.class.getResource("splash-screen.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(Application.class.getResource("view.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 1280, 720);
         loadFonts();
-        stage.setResizable(false);
         stage.centerOnScreen();
-        stage.setMinWidth(1280.0);
-        stage.setMinHeight(720.0);
-        stage.setMaxWidth(1280.0);
-        stage.setMaxHeight(720.0);
+        stage.setFullScreen(true);
         scene.setFill(Color.TRANSPARENT);
         stage.setTitle("Challenge");
         stage.setScene(scene);

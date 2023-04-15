@@ -16,7 +16,7 @@
 <StackPane xmlns:fx="http://javafx.com/fxml" style="-fx-background-color: white;"
            fx:controller="com.s.challenge.MainController">
     <padding>
-        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+        <Insets bottom="20.0" left="30.0" right="20.0" top="30.0"/>
     </padding>
 
     <ImageView style="-fx-background-color: white;">
@@ -24,7 +24,7 @@
     </ImageView>
 
     <HBox HBox.hgrow="ALWAYS">
-        <VBox spacing="25" alignment="TOP_CENTER">
+        <VBox spacing="60" alignment="CENTER">
             <Label text="الفوج الثاني" style="-fx-font-size: 30px; -fx-font-family: 'Tajawal-Bold'; -fx-text-fill: black;"/>
             <VBox spacing="20">
                 <HBox spacing="10">
@@ -219,7 +219,7 @@
             </VBox>
         </VBox>
 
-        <VBox spacing="25" alignment="TOP_CENTER">
+        <VBox spacing="60" alignment="CENTER">
             <Label text="الفوج الأول" style="-fx-font-size: 30px; -fx-font-family: 'Tajawal-Bold'; -fx-text-fill: black;"/>
             <VBox spacing="20">
                 <HBox spacing="10">
