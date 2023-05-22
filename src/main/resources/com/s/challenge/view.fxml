@@ -45,7 +45,7 @@
 
                     <TextField fx:id="islam_group_2" alignment="CENTER" prefHeight="35" prefWidth="50" stylesheets="@css/module-text-field-style.css" text="0.0" />
 
-                    <Label prefHeight="35" stylesheets="@css/module-label-style.css" text="التربية الإسلامية" />
+                    <Label prefHeight="35" stylesheets="@css/module-label-style.css" text="الرياضيات" />
 
                 </HBox>
 
@@ -59,7 +59,7 @@
 
                     <TextField fx:id="math_group_2" alignment="CENTER" prefHeight="35" prefWidth="50" stylesheets="@css/module-text-field-style.css" text="0.0" />
 
-                    <Label prefHeight="35" stylesheets="@css/module-label-style.css" text="الرياضيات" />
+                    <Label prefHeight="35" stylesheets="@css/module-label-style.css" text="اللغة الفرنسية" />
 
                 </HBox>
 
@@ -73,7 +73,7 @@
 
                     <TextField fx:id="physics_group_2" alignment="CENTER" prefHeight="35" prefWidth="50" stylesheets="@css/module-text-field-style.css" text="0.0" />
 
-                    <Label prefHeight="35" stylesheets="@css/module-label-style.css" text="الفزاياء" />
+                    <Label prefHeight="35" stylesheets="@css/module-label-style.css" text="اللغة الإنجليزية" />
 
                 </HBox>
 
@@ -87,7 +87,7 @@
 
                     <TextField fx:id="scince_group_2" alignment="CENTER" prefHeight="35" prefWidth="50" stylesheets="@css/module-text-field-style.css" text="0.0" />
 
-                    <Label prefHeight="35" stylesheets="@css/module-label-style.css" text="العلوم الطبيعية" />
+                    <Label prefHeight="35" stylesheets="@css/module-label-style.css" text="علوم الطبيعة والحياة" />
 
                 </HBox>
 
@@ -101,7 +101,7 @@
 
                     <TextField fx:id="fr_group_2" alignment="CENTER" prefHeight="35" prefWidth="50" stylesheets="@css/module-text-field-style.css" text="0.0" />
 
-                    <Label prefHeight="35" stylesheets="@css/module-label-style.css" text="اللغة الفرنسية" />
+                    <Label prefHeight="35" stylesheets="@css/module-label-style.css" text="الفيزياء" />
 
                 </HBox>
 
@@ -115,7 +115,7 @@
 
                     <TextField fx:id="generalColture_group_2" alignment="CENTER" prefHeight="35" prefWidth="50" stylesheets="@css/module-text-field-style.css" text="0.0" />
 
-                    <Label prefHeight="35" stylesheets="@css/module-label-style.css" text="ثقافة عامة" />
+                    <Label prefHeight="35" stylesheets="@css/module-label-style.css" text="التاريخ والجغرافيا" />
 
                 </HBox>
 
@@ -129,7 +129,7 @@
 
                     <TextField fx:id="history_group_2" alignment="CENTER" prefHeight="35" prefWidth="50" stylesheets="@css/module-text-field-style.css" text="0.0" />
 
-                    <Label stylesheets="@css/module-label-style.css" text="التاريخ والجغرافيا" />
+                    <Label stylesheets="@css/module-label-style.css" text="التربية المدنية" />
 
                 </HBox>
 
@@ -143,7 +143,7 @@
 
                     <TextField fx:id="civil_group_2" alignment="CENTER" prefHeight="35" prefWidth="50" stylesheets="@css/module-text-field-style.css" text="0.0" />
 
-                    <Label prefHeight="35" stylesheets="@css/module-label-style.css" text="التربية المدنية" />
+                    <Label prefHeight="35" stylesheets="@css/module-label-style.css" text="التربية الإسلامية" />
 
                 </HBox>
 
@@ -171,7 +171,7 @@
 
                     <TextField fx:id="english_group_2" alignment="CENTER" prefHeight="35" prefWidth="50" stylesheets="@css/module-text-field-style.css" text="0.0" />
 
-                    <Label prefHeight="35" stylesheets="@css/module-label-style.css" text="اللغة الانجليزية" />
+                    <Label prefHeight="35" stylesheets="@css/module-label-style.css" text="ثقافة عامة" />
 
                 </HBox>
             </VBox>
@@ -240,7 +240,7 @@
 
                     <TextField fx:id="islam_group_1" alignment="CENTER" prefHeight="35" prefWidth="50" stylesheets="@css/module-text-field-style.css" text="0.0" />
 
-                    <Label prefHeight="35" stylesheets="@css/module-label-style.css" text="التربية الإسلامية" />
+                    <Label prefHeight="35" stylesheets="@css/module-label-style.css" text="الرياضيات" />
 
                 </HBox>
 
@@ -254,7 +254,7 @@
 
                     <TextField fx:id="math_group_1" alignment="CENTER" prefHeight="35" prefWidth="50" stylesheets="@css/module-text-field-style.css" text="0.0" />
 
-                    <Label prefHeight="35" stylesheets="@css/module-label-style.css" text="الرياضيات" />
+                    <Label prefHeight="35" stylesheets="@css/module-label-style.css" text="اللغة الفرنسية" />
 
                 </HBox>
 
@@ -268,7 +268,7 @@
 
                     <TextField fx:id="physics_group_1" alignment="CENTER" prefHeight="35" prefWidth="50" stylesheets="@css/module-text-field-style.css" text="0.0" />
 
-                    <Label prefHeight="35" stylesheets="@css/module-label-style.css" text="الفزاياء" />
+                    <Label prefHeight="35" stylesheets="@css/module-label-style.css" text="اللغة الإنجليزية" />
 
                 </HBox>
 
@@ -282,7 +282,7 @@
 
                     <TextField fx:id="scince_group_1" alignment="CENTER" prefHeight="35" prefWidth="50" stylesheets="@css/module-text-field-style.css" text="0.0" />
 
-                    <Label prefHeight="35" stylesheets="@css/module-label-style.css" text="العلوم الطبيعية" />
+                    <Label prefHeight="35" stylesheets="@css/module-label-style.css" text="علوم الطبيعة والحياة" />
 
                 </HBox>
 
@@ -296,7 +296,7 @@
 
                     <TextField fx:id="fr_group_1" alignment="CENTER" prefHeight="35" prefWidth="50" stylesheets="@css/module-text-field-style.css" text="0.0" />
 
-                    <Label prefHeight="35" stylesheets="@css/module-label-style.css" text="اللغة الفرنسية" />
+                    <Label prefHeight="35" stylesheets="@css/module-label-style.css" text="الفيزياء" />
 
                 </HBox>
 
@@ -310,7 +310,7 @@
 
                     <TextField fx:id="generalColture_group_1" alignment="CENTER" prefHeight="35" prefWidth="50" stylesheets="@css/module-text-field-style.css" text="0.0" />
 
-                    <Label prefHeight="35" stylesheets="@css/module-label-style.css" text="ثقافة عامة" />
+                    <Label prefHeight="35" stylesheets="@css/module-label-style.css" text="التاريخ والجغرافيا" />
 
                 </HBox>
 
@@ -324,7 +324,7 @@
 
                     <TextField fx:id="history_group_1" alignment="CENTER" prefHeight="35" prefWidth="50" stylesheets="@css/module-text-field-style.css" text="0.0" />
 
-                    <Label stylesheets="@css/module-label-style.css" text="التاريخ والجغرافيا" />
+                    <Label stylesheets="@css/module-label-style.css" text="التربية المدنية" />
 
                 </HBox>
 
@@ -338,7 +338,7 @@
 
                     <TextField fx:id="civil_group_1" alignment="CENTER" prefHeight="35" prefWidth="50" stylesheets="@css/module-text-field-style.css" text="0.0" />
 
-                    <Label prefHeight="35" stylesheets="@css/module-label-style.css" text="التربية المدنية" />
+                    <Label prefHeight="35" stylesheets="@css/module-label-style.css" text="التربية الإسلامية" />
 
                 </HBox>
 
@@ -366,7 +366,7 @@
 
                     <TextField fx:id="english_group_1" alignment="CENTER" prefHeight="35" prefWidth="50" stylesheets="@css/module-text-field-style.css" text="0.0" />
 
-                    <Label prefHeight="35" stylesheets="@css/module-label-style.css" text="اللغة الانجليزية" />
+                    <Label prefHeight="35" stylesheets="@css/module-label-style.css" text="ثقافة عامة" />
 
                 </HBox>
             </VBox>

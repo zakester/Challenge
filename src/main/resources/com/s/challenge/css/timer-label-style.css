@@ -1,10 +1,10 @@
 .label {
-    -fx-font-size: 38px;
+    -fx-font-size: 100px;
     -fx-font-family: "Tajawal-Bold";
-    -fx-text-fill: white;
-    -fx-background-color: #0C0C0C;
-    -fx-border-radius: 8px;
-    -fx-background-radius: 8px;
+    -fx-text-fill: black;
+    -fx-background-color: transparent;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
     -fx-alignment: CENTER;
     -fx-pref-width: 300.0px;
     -fx-pref-height: 90.0px;

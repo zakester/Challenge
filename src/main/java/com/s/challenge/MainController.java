@@ -43,7 +43,7 @@ public class MainController implements Initializable {
     String musicFile1 = "sound/clock.mp3";     // For example
     String musicFile2 = "sound/time up.mp3";
     Media timerSound = new Media(getClass().getResource("sound/clock.mp3").toExternalForm());
-    Media timeUPSound = new Media(getClass().getResource("sound/time up.wav").toExternalForm());
+    Media timeUPSound = new Media(getClass().getResource("sound/buzzer.wav").toExternalForm());
     MediaPlayer mediaPlayer = new MediaPlayer(timerSound);
 
     public int getAgeInSeconds(long createdMillis) {

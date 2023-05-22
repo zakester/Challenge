@@ -1,15 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
 <?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
 <StackPane prefHeight="715.0" prefWidth="720.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.s.challenge.SplashScreenController">
-
+    
     <ImageView fx:id="img">
-        <Image url="@images/splash-screen-background.png" />
+        <Image url="@images/soroban.png" />
     </ImageView>
-    <ImageView fx:id="img" onMouseClicked="#goToMain">
+    <Label fx:id="timer" minHeight="300.0" minWidth="600.0" prefHeight="500.0" prefWidth="1000.0" stylesheets="@css/timer-label-style.css" text="10:00" StackPane.alignment="CENTER">
+      <font>
+         <Font size="17.0" />
+      </font>
+      <StackPane.margin>
+         <Insets top="20.0" />
+      </StackPane.margin></Label>
+    <ImageView fx:id="img1" onMouseClicked="#startTimer" StackPane.alignment="TOP_CENTER">
         <Image url="@images/logo.png" />
+      <StackPane.margin>
+         <Insets top="50.0" />
+      </StackPane.margin>
     </ImageView>
 
 </StackPane>
